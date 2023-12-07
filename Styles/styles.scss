@@ -10,113 +10,110 @@
 
 */
 
-
 @font-face {
-    font-family: BMWFont;
-    src: url(../font/BMWTypeNext\ Pro\ Regular.ttf);
+  font-family: BMWFont;
+  src: url(../font/BMWTypeNext\ Pro\ Regular.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: BMWFont;
+  margin: 0;
+  padding: 0;
+  font-family: BMWFont;
 }
 
 body {
-    background-image: url(../Assets/bmw_background2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url(../Assets/bmw_background2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 header {
-    
-    width: 100%;
-    justify-content: center;
-    height: 90px;
+  width: 100%;
+  justify-content: center;
+  height: 90px;
+  text-align: center;
+
+  nav {
+    padding: 30px;
+    margin-left: 160px;
+    float: left;
+  }
+
+  .icono {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+  }
+  li {
+    float: left;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 3px;
+    height: 20px;
+  }
+
+  a {
+    display: block;
     text-align: center;
-    
-     nav {
-        padding: 30px;
-        margin-left: 160px;
-        float: left;
-    } 
+    text-decoration: none;
+    color: white;
+  }
 
-    .icono {
-        width: 20px;
-        height: 20px;
-        float: right;
-        margin-right: 10px;
-        margin-bottom: 20px;
-    }
+  .bmwheader {
+    float: right;
+    margin-top: 0;
+  }
 
-    ul {
-        list-style-type: none;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-        height: 20px;
-    }
-    li {
-        float: left;
-        margin-right: 20px;
-        color: white;
-        text-decoration: none;
-        margin-top: 3px;
-        height: 20px;
-    } 
-    
-    a {
-        display: block;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-    } 
-    
-    .bmwheader {
-        float: right;
-        margin-top: 0;
-    }
+  .header_items {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 180px;
+  }
 
-    .header_items {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        margin-right: 180px;
-        } 
-
-    .borde {
-        border-bottom: 1px solid lightgrey;
-        margin-left: 180px;
-        margin-right: 300px;
-    }
-
+  .borde {
+    border-bottom: 1px solid lightgrey;
+    margin-left: 180px;
+    margin-right: 300px;
+  }
 }
 
 main {
-    .inicio {
-        width: 100%;
-        height: 800px;
-    }
+  .inicio {
+    width: 100%;
+    height: 800px;
+  }
 
-    h1 {
-        margin-left: 40px;
-        margin-top: 200px;
-        color: white;
-        font-size: 40px;
-    }
+  h1 {
+    margin-left: 40px;
+    margin-top: 200px;
+    color: white;
+    font-size: 40px;
+  }
 
-    h4 {
-        margin-left: 40px;
-        color:white;
-    }
+  h4 {
+    margin-left: 40px;
+    color: white;
+  }
 
-    button {
-        margin-top: 20px;
-        margin-left: 40px;
-        width: 180px;
-        height: 50px;
-        background-color: #3769d6;
-        color: white;
-        border-style: none;
-    }
+  button {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 180px;
+    height: 50px;
+    background-color: #3769d6;
+    color: white;
+    border-style: none;
+  }
 }
